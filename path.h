@@ -1,3 +1,5 @@
+#ifndef NODEUV_PATH_H
+#define NODEUV_PATH_H
 
 #include <string>
 #include <regex>
@@ -62,4 +64,6 @@ namespace nodeuv {
     return this->_resolve(args);
   }
 }
+
+#endif
 
